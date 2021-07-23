@@ -1,7 +1,8 @@
-Flask
-Flask-SQL_Alchemy
-Jinja2
-Werkzeug
+
+Flask==1.1.1
+Flask-SQLAlchemy==2.5.0
+Jinja2==2.10.3
+Werkzeug==0.16.1
 pymysql
 flask_wtf
 wtforms

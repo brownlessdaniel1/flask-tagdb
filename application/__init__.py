@@ -7,6 +7,6 @@ app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("SQL_URI")
 app.config["SECRET_KEY"] = "my_key"
 app.config["SQL_ALCHEMY_TRACK_MODIFICATIONS"] = False
 
-db = SQLALCHEMY (app)
+db = SQLAlchemy(app)
 
 from application import routes
