@@ -6,7 +6,7 @@ Werkzeug==0.16.1
 pymysql
 flask_wtf
 wtforms
-
+gunicorn==20.0.4
 pytest
 pytest-cov
 flask-testing
