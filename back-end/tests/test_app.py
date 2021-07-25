@@ -22,29 +22,3 @@ class TestBase(TestCase):
 
     def tearDown(self):
         db.drop_all()
-
-class TestRender(TestBase):
-    def testHomeGet(self):
-        self.assert200(self.client.get(url_for('home')))
-
-    def testCreateObjGet(self):
-        self.assert200(self.client.get(url_for('createObj')))
-
-    def testCreateTagGet(self):
-        self.assert200(self.client.get(url_for('createTag')))
-
-    def testReadAllGet(self):
-        self.assert200(self.client.get(url_for('readAll')))
-    
-    # more reads?
-    def testRenameObjGet(self):
-        self.assert200(self.client.get(url_for('renameObj')))
-    
-    def testUpdateTagGet(self):
-        self.assert200(self.client.get(url_for('updateTag')))
-    # Delete
-    def testRemoveObjGet(self):
-        self.assert200(self.client.get(url_for('remobeObj')))
-
-    def testRemoveObjGet(self):
-        self.assert200(self.client.get(url_for('removeTag')))
