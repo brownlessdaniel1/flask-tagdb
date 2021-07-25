@@ -7,6 +7,13 @@ This is a side-project to practice web-development and deployment techniques.
 
 ## Installation / Configuration
 
+## Application Structure
+This app is made up of 2 microservices, that interface through an API:
+* front-end - user-interface, sends 'user requests' to backend.
+* back-end - performs CRUD operations on data persisted in a database.
+**PUT an image here**
+
+
 ## Data Design
 ![Entity Relationship Diagram](assets/entity_relationship_diagram.png "Entity Relationship Diagram")
 ## Unit testing
